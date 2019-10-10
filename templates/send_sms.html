@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>Send SMS</h1>
+  {% from "includes/_formhelpers.html" import render_field %}
+  <br>
+
+  <form method="POST" action="">
+    <div class="form-group">
+      {{render_field(form.firstname, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.lastname, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.phonenumber, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.mobile_carrier, class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.message_content, class_="form-control")}}
+    </div>
+    <div class="container text-center" >
+    <p><input type="submit" class="btn btn-outline-primary" value="Send Message"></p>
+  </div>
+  </form>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+[
+('@mms.att.net', 'AT&T'),
+('@tmomail.net', 'T-Mobile'),
+('@vzwpix.com', 'Verizon'),
+('@pm.sprint.com', 'Sprint'), 
+('@mypixmessages.com', 'XFinity Mobile'), 
+('@vmpix.com', 'Virgin Mobile'), 
+('@mmst5.tracfone.com', 'Tracfone'), 
+('@mymetropcs.com', 'Metro PCS'), 
+('@myboostmobile.com', 'Boost Mobile'), 
+('@mms.cricketwireless.net', 'Cricket'), 
+('@text.republicwireless.com', 'Republic Wireless'), 
+('@msg.fi.google.com', 'Google Fi (Project Fi)'),
+('@mms.uscc.net', 'U.S. Cellular'), 
+('@message.ting.com', 'Ting'), 
+('@mailmymobile.net', 'Consumer Cellular'), 
+('@cspire1.com', 'C-Spire'), 
+('@vtext.com', 'Page Plus')
+]
